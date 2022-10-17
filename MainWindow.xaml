@@ -6,7 +6,30 @@
         xmlns:local="clr-namespace:gdm_n0cl1p_check_ml9_th1s_m0m3nt_d3aD"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="155*"/>
+            <ColumnDefinition Width="43*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="328*"/>
+            <RowDefinition Height="91*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="text" TextAlignment="Center" FontSize="20" Foreground="White"/>
+
+        <StackPanel Grid.Column="1" ButtonBase.Click="SelectButton">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Azure"/>
+                    <Setter Property="Height" Value="50"/>
+                </Style>
+            </StackPanel.Resources>
+            
+            <Button x:Name="yButton" Foreground="Green"/>
+            <Button x:Name="nButton" Foreground="Red"/>
+            <Button x:Name="mButton" Foreground="Yellow"/>
+        </StackPanel>
+
     </Grid>
 </Window>
