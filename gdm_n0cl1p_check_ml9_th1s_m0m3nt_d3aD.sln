@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gdm_n0cl1p_check_ml9_th1s_m0m3nt_d3aD", "gdm_n0cl1p_check_ml9_th1s_m0m3nt_d3aD.csproj", "{FE4ACB25-3FB4-4369-BDFD-692249DC5D20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonTextGenerator", "..\JsonTextGenerator\JsonTextGenerator.csproj", "{2D2C1762-561D-4677-A731-31D62582ED63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FE4ACB25-3FB4-4369-BDFD-692249DC5D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE4ACB25-3FB4-4369-BDFD-692249DC5D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE4ACB25-3FB4-4369-BDFD-692249DC5D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2C1762-561D-4677-A731-31D62582ED63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2C1762-561D-4677-A731-31D62582ED63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2C1762-561D-4677-A731-31D62582ED63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2C1762-561D-4677-A731-31D62582ED63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

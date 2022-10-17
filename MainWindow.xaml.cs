@@ -48,6 +48,7 @@ namespace gdm_n0cl1p_check_ml9_th1s_m0m3nt_d3aD {
             SetScene(start);
         }
 
+
         public void SetScene(Question que){
             text.Text = que.question;
             yButton.Content = que.yes;
